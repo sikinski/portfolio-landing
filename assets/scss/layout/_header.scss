@@ -21,6 +21,7 @@ header {
       font-weight: 600;
       font-size: 18px;
       line-height: 21px;
+      width: 167px;
     }
     a {
       .logo {
@@ -46,11 +47,6 @@ header {
           background-color: white;
         }
       }
-    }
-    .header-btn {
-      background-color: $orangeCol;
-      width: 167px;
-      color: white;
     }
   }
   .header-main-content {
@@ -89,7 +85,7 @@ header {
         font-size: 80px;
         line-height: 92px;
         color: $darkCol;
-        max-width: 566px;
+        // max-width: 566px;
       }
       .about-me {
         max-width: 450px;
@@ -140,7 +136,7 @@ header {
           position: absolute;
           width: 35px;
           height: 1px;
-          margin: 7px 0;
+          margin: 8px 0;
           background-color: $grayCol;
         }
         h6 {

@@ -20,30 +20,41 @@ footer {
       width: 23%;
       margin: 40px auto;
       button {
-        width: 100px;
-        height: 100px;
+        width: 50px;
+        height: 50px;
         border-radius: 50%;
         -webkit-border-radius: 50%;
         -moz-border-radius: 50%;
         -ms-border-radius: 50%;
         -o-border-radius: 50%;
         box-shadow: 0px 10px 25px rgba(210, 210, 210, 0.25);
+        &:hover {
+          box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        }
       }
       .facebook_btn {
-        background: url(/icons/Fb.svg);
-        background-size: cover;
+        background: url(/icons/fb.svg);
+        background-size: 11px 20px;
+        background-position: center;
+        background-repeat: no-repeat;
       }
       .twitter_btn {
         background: url(/icons/twitter.svg);
-        background-size: cover;
+        background-size: 22px 18px;
+        background-position: center;
+        background-repeat: no-repeat;
       }
       .dribble_btn {
         background: url(/icons/dribbble.svg);
-        background-size: cover;
+        background-size: 20px 18px;
+        background-position: center;
+        background-repeat: no-repeat;
       }
       .linkedin_btn {
         background: url(/icons/linkedin.svg);
-        background-size: cover;
+        background-size: 20px 19px;
+        background-position: center;
+        background-repeat: no-repeat;
       }
     }
     nav {

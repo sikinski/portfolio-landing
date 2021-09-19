@@ -13,6 +13,9 @@
     .post {
       width: 32.2%;
       border: 1px solid #dfdfdf;
+      &:hover {
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 20px 50px -12px;
+      }
       .post_splash-screen {
         width: 100%;
         height: auto;

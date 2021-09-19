@@ -4,4 +4,7 @@
   font-weight: 600;
   font-size: 18px;
   line-height: 21px;
+  &:hover {
+    background-color: darken($orangeCol, 5%);
+  }
 }

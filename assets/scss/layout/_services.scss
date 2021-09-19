@@ -19,6 +19,9 @@
     .service {
       padding: 50px 55px;
       text-align: left;
+      &:hover {
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+      }
       .service-logo {
         position: absolute;
       }
@@ -47,12 +50,7 @@
     }
   }
   .explore-btn {
-    background-color: $orangeCol;
     width: 203px;
     height: 60px;
-    color: white;
-    font-weight: 600;
-    font-size: 18px;
-    line-height: 21px;
   }
 }
