@@ -1,0 +1,81 @@
+footer {
+  width: 100%;
+  .feedback {
+    position: relative;
+    margin: 0 auto;
+    text-align: center;
+    align-items: center;
+    .logo {
+      margin: 60px auto;
+      width: 66px;
+      height: 80px;
+    }
+    h4 {
+      margin: 30px 0;
+    }
+    .footer_buttons {
+      display: flex;
+      position: relative;
+      justify-content: space-between;
+      width: 23%;
+      margin: 40px auto;
+      button {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        -ms-border-radius: 50%;
+        -o-border-radius: 50%;
+        box-shadow: 0px 10px 25px rgba(210, 210, 210, 0.25);
+      }
+      .facebook_btn {
+        background: url(/icons/Fb.svg);
+        background-size: cover;
+      }
+      .twitter_btn {
+        background: url(/icons/twitter.svg);
+        background-size: cover;
+      }
+      .dribble_btn {
+        background: url(/icons/dribbble.svg);
+        background-size: cover;
+      }
+      .linkedin_btn {
+        background: url(/icons/linkedin.svg);
+        background-size: cover;
+      }
+    }
+    nav {
+      ul {
+        display: flex;
+        position: relative;
+        li {
+          height: 100%;
+          padding: 19px 27px;
+          background-color: white;
+          color: $grayCol;
+          &:hover {
+            background-color: darken(white, 7%);
+          }
+        }
+      }
+    }
+    .email_wrapper {
+      position: absolute;
+      right: 0;
+      bottom: 100px;
+      background: url(/icons/mail.svg);
+      background-size: contain;
+      background-repeat: no-repeat;
+      padding-left: 30px;
+    }
+  }
+
+  .copyright-text {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+  }
+}

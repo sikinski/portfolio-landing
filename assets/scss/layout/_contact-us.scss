@@ -1,0 +1,49 @@
+.contact-us {
+  display: flex;
+  position: relative;
+  background-color: $darkCol;
+  height: auto;
+  padding: 9px 72px;
+  .contact-us-pic {
+    z-index: 3;
+  }
+  .contact-us_text-wrapper {
+    padding: 120px 130px;
+    padding-right: 0;
+    .contact-us_title {
+      color: white;
+      line-height: 55px;
+    }
+    .contact-us_text {
+      margin: 25px 0;
+    }
+    .get-in-touch {
+      width: 171px;
+      height: 60px;
+      margin: 15px 0;
+    }
+  }
+
+  .background-rectangle {
+    display: block;
+    position: absolute;
+    width: 316px;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background-color: rgba(255, 255, 255, 0.08);
+    z-index: 0;
+  }
+  .background-triangle {
+    display: block;
+    position: absolute;
+    width: 0;
+    height: 0;
+    right: 50px;
+    bottom: 50px;
+    border: 83px solid transparent;
+    border-right: 83px solid rgba(255, 255, 255, 0.08);
+    border-bottom: 83px solid rgba(255, 255, 255, 0.08);
+    z-index: 0;
+  }
+}

@@ -1,0 +1,29 @@
+@font-face {
+  font-family: "THICCCBOI";
+  src: url(/fonts/THICCCBOI.ttf);
+}
+body,
+* {
+  font-family: "THICCCBOI";
+  font: "THICCCBOI";
+  font-style: normal;
+}
+//2 section and next
+h5 {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+  color: $darkCol;
+}
+h4 {
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 62px;
+  color: $darkCol;
+}
+p {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  color: $grayCol;
+}

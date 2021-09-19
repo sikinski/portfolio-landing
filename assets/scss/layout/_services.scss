@@ -1,0 +1,58 @@
+.services {
+  position: relative;
+  text-align: center;
+  height: auto;
+  background-color: #f8f8f8;
+  .services-wrapper {
+    display: grid;
+    position: relative;
+    grid-template-columns: 420px 420px 420px;
+    grid-template-rows: 290px 290px;
+    gap: 30px;
+    grid-template-areas:
+      ". . ."
+      ". . .";
+    margin: 60px auto;
+    width: 100%;
+    justify-content: center;
+    align-content: center;
+    .service {
+      padding: 50px 55px;
+      text-align: left;
+      .service-logo {
+        position: absolute;
+      }
+      .service-name {
+        line-height: 32px;
+        font-weight: 600;
+        margin-left: 75px;
+        margin-bottom: 23px;
+      }
+      .service-description {
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 30px;
+        color: $grayCol;
+      }
+      .service-btn {
+        width: 47px;
+        height: 18px;
+        padding: 4px 0;
+        background-image: url(/icons/orange-arrow-right.svg);
+        background-size: contain;
+        background-position-y: center;
+        background-repeat: no-repeat;
+        margin-top: 30px;
+      }
+    }
+  }
+  .explore-btn {
+    background-color: $orangeCol;
+    width: 203px;
+    height: 60px;
+    color: white;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21px;
+  }
+}

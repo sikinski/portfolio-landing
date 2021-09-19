@@ -1,0 +1,17 @@
+.freelance {
+  text-align: center;
+  .design-web_btn {
+    width: 43%;
+    background: url(/icons/arrow-top-right-orange.svg);
+    background-repeat: no-repeat;
+    background-size: 22px 23px;
+    background-position-x: right;
+    background-position-y: 20px;
+    margin: 80px 0;
+
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 55px;
+    color: $orangeCol;
+  }
+}

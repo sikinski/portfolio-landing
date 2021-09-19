@@ -1,0 +1,37 @@
+@import "modules/reset";
+@import "modules/colors";
+@import "modules/typography";
+@import "modules/elements";
+
+body {
+  padding: 40px 200px;
+}
+.wrapper {
+  max-width: 1520px;
+  background-color: white;
+  margin: 0 auto;
+}
+
+main {
+  width: 100%;
+  min-height: 100%;
+  height: auto;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+}
+section {
+  width: 100%;
+  padding: 100px 0;
+  flex: 1 1 auto;
+}
+@import "layout/header.scss";
+@import "layout/examples.scss";
+@import "layout/promises.scss";
+@import "layout/services.scss";
+@import "layout/experience.scss";
+@import "layout/contact-us.scss";
+@import "layout/swiper.scss";
+@import "layout/blog-news.scss";
+@import "layout/freelance.scss";
+@import "layout/footer.scss";

@@ -1,0 +1,186 @@
+header {
+  width: 100%;
+  height: auto;
+  background: inherit;
+  .header-topbar {
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 60px;
+    justify-content: space-between;
+    ul {
+      li {
+        a {
+          font-weight: 500;
+          font-size: 18px;
+          line-height: 21px;
+        }
+      }
+    }
+    .header-btn {
+      font-weight: 600;
+      font-size: 18px;
+      line-height: 21px;
+    }
+    a {
+      .logo {
+        margin: 10px 0;
+        cursor: pointer;
+      }
+    }
+
+    ul {
+      display: flex;
+      position: relative;
+      li {
+        height: 100%;
+        padding: 19px 27px;
+        background-color: white;
+        &.active {
+          color: $orangeCol;
+        }
+        &:hover {
+          background-color: darken(white, 7%);
+        }
+        &.active:hover {
+          background-color: white;
+        }
+      }
+    }
+    .header-btn {
+      background-color: $orangeCol;
+      width: 167px;
+      color: white;
+    }
+  }
+  .header-main-content {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    width: 100%;
+    height: auto;
+    .text-block {
+      display: flex;
+      position: relative;
+      flex-direction: column;
+      margin-top: 45px;
+      .profession {
+        position: relative;
+        font-size: 18px;
+        line-height: 21px;
+        letter-spacing: 0.05em;
+        text-transform: uppercase;
+        color: $orangeCol;
+        &::before {
+          content: "";
+          position: absolute;
+          width: 50px;
+          height: 1px;
+          margin: 9px 0;
+          background-color: $orangeCol;
+        }
+        p {
+          margin-left: 65px;
+        }
+      }
+      h1 {
+        margin: 15px 0;
+        font-weight: bold;
+        font-size: 80px;
+        line-height: 92px;
+        color: $darkCol;
+        max-width: 566px;
+      }
+      .about-me {
+        max-width: 450px;
+        margin-top: 18px;
+        margin-bottom: 50px;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 38px;
+        color: $grayCol;
+      }
+      .hire-me {
+        display: flex;
+        height: 40px;
+        position: relative;
+        .hire-me-btn {
+          align-items: center;
+          width: 40px;
+          background-color: $darkCol;
+          border-radius: 0px 10px 0px 0px;
+          background-image: url(/icons/arrow-top-right.svg);
+          background-size: 24px;
+          background-position: center;
+          background-repeat: no-repeat;
+        }
+        a {
+          padding: 10px 15px;
+          font-weight: 500;
+          font-size: 18px;
+          line-height: 21px;
+          color: $darkCol;
+        }
+      }
+    }
+    img {
+      position: absolute;
+      width: 789px;
+      height: 628px;
+      margin-left: 525px;
+    }
+    .our-projects-block {
+      display: block;
+      position: relative;
+      margin-top: 340px;
+      .our-prj-heading {
+        position: relative;
+        &::before {
+          content: "";
+          position: absolute;
+          width: 35px;
+          height: 1px;
+          margin: 7px 0;
+          background-color: $grayCol;
+        }
+        h6 {
+          font-weight: 500;
+          font-size: 16px;
+          line-height: 18px;
+          text-transform: uppercase;
+          color: $grayCol;
+          margin-left: 43px;
+        }
+      }
+      ul {
+        font-size: 22px;
+        line-height: 25px;
+        color: $darkCol;
+        li {
+          .type-project {
+            font-weight: bold;
+            padding: 10px 0;
+          }
+          .name-company {
+            font-weight: 500;
+          }
+        }
+      }
+      .explore-project {
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 21px;
+        color: $orangeCol;
+        padding: 10px 0;
+      }
+    }
+    .cooperation-text {
+      position: absolute;
+      bottom: 0;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 16px;
+      color: $grayCol;
+    }
+  }
+}

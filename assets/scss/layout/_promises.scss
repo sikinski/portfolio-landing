@@ -1,0 +1,63 @@
+.promises-section {
+  display: flex;
+  position: relative;
+  height: auto;
+  justify-content: space-between;
+  .promises-left-wrapper {
+    width: 750px;
+  }
+
+  .promises-right-wrapper {
+    width: 750px;
+    display: block;
+    position: relative;
+    float: right;
+    .promises-block {
+      display: flex;
+      position: relative;
+      justify-content: space-between;
+      margin: 60px 0;
+      .promise-block {
+        width: 335px;
+        div {
+          display: block;
+          position: absolute;
+          width: 40px;
+          height: 40px;
+          background-color: $orangeCol;
+          color: white;
+          font-size: 20px;
+          line-height: 23px;
+          text-align: center;
+          padding: 7px 0;
+        }
+        h5 {
+          margin-left: 65px;
+          margin-bottom: 12px;
+        }
+        p {
+          margin-left: 65px;
+          font-weight: 500;
+          font-size: 16px;
+          line-height: 26px;
+          color: $grayCol;
+        }
+      }
+    }
+    .promises-numbers {
+      display: flex;
+      .number-block {
+        display: flex;
+        margin-right: 100px;
+        h4 {
+          line-height: 55.34px;
+        }
+        .description-number {
+          margin: 0 10px;
+          padding: 7px 0;
+          color: $grayCol;
+        }
+      }
+    }
+  }
+}
